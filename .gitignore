@@ -57,7 +57,7 @@ x86/
 # Other compiled libraries are not needed, but keep the supplied
 # MazeGenerator.lib: the existing main Visual Studio project links against it.
 *.lib
-!/Libraries/lib/MazeGenerator.lib
+!/Project - Maze/Libraries/lib/MazeGenerator.lib
 
 # Generated game outputs, not source assets
 /Results/
