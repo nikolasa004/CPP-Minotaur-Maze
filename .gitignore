@@ -1,0 +1,71 @@
+# C++ / Visual Studio - Minotaur Maze
+# Preserve the original source, both Visual Studio solutions and the report.
+
+# Visual Studio workspace and user-specific settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+*.ipch
+ipch/
+*.db-shm
+*.db-wal
+
+# Build directories (including nested Visual Studio output)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Oo]ut/
+
+# Compiled objects, executables and diagnostics
+*.obj
+*.o
+*.exe
+*.dll
+*.pdb
+*.idb
+*.ilk
+*.ipch
+*.pch
+*.tlog
+*.lastbuildstate
+*.recipe
+*.exp
+*.iobj
+*.ipdb
+*.iip
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Other compiled libraries are not needed, but keep the supplied
+# MazeGenerator.lib: the existing main Visual Studio project links against it.
+*.lib
+!/Libraries/lib/MazeGenerator.lib
+
+# Generated game outputs, not source assets
+/Results/
+/Leaderboard/
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
